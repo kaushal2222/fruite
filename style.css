@@ -1,0 +1,137 @@
+/* .container{
+    height: 1000px;
+} */
+/* header starts */
+.header
+{
+    background-color: #81c408 !important;
+    width: 100%;
+    height: 75px;
+    border-radius: 25px;
+    
+}
+.left
+{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    /* border: 1px solid; */
+    float: left;
+    font-size: 17px;
+}
+.left p{
+    display: inline;
+    padding: 12px;
+    color: white;
+   
+}
+.right
+{
+    width: 400px;
+    margin-top: 20px;
+    height: 40px;
+    font-size: 17px;
+    /* border: 1px solid; */
+    float: right;
+}
+.right p{
+    display: inline;
+    padding: 12px;
+    color: white;
+}
+.right p:hover{
+    color: yellow;
+    cursor: pointer;
+}
+/* header end */
+/* header1 starts */
+.header1{
+    height: 100px;
+    /* border: 1px solid; */
+    display: flex;
+    color:#81c408;
+    /* position: fixed; */
+}
+.detail{
+    margin-left: 250px;
+    margin-top: 35px;
+
+    
+}
+
+
+.detail li{
+    /* justify-content: center; */
+    font-size: 21px;
+    display: flex;
+    color: gray;
+    float: left;
+    margin-left: 50px;
+    /* text-align: center; */
+}
+.detail li:hover{
+    color: #81c408;
+    cursor: pointer;
+}
+.searchbox input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid green;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: medium
+}
+.home{
+    color: #81c408;
+    text-decoration: none;
+}
+.img1{
+    position: relative;
+}
+.t1{
+    position: absolute;
+    top: 50px;
+    left: 16px;
+    font-size: 18px;
+  }
+  .t2{
+    height: 50px;
+    font-size: 25px;
+    color:green;
+    margin-left:100px ;
+  }
+.t3{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #81c408 !important;
+    margin-left: 50px;
+}
+.search1{
+    height: 50px;
+    width: 500px;
+    margin-left: 50px;
+    /* border-radius: 10px; */
+    border-color:orange;
+    border-right: none;
+}
+.search1,input,text{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 2px;
+}
+.search1::placeholder{
+    color:#81c408;
+}
+.submit{
+    padding: 17px 0px ;
+    border-left:none;
+    margin-top: 1px;
+    padding-bottom: 20px;
+    border-color:orange;
+    
+}
+.flex{
+    display: flex;
+}
