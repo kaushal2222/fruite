@@ -67,7 +67,16 @@
     color: gray;
     float: left;
     margin-left: 50px;
+    
     /* text-align: center; */
+}
+.detail li a{
+    text-decoration: none;
+    color: grey;
+}
+.detail li a:hover{
+  color: #81c408;
+  cursor: pointer;
 }
 .detail li:hover{
     color: #81c408;
