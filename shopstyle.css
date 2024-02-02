@@ -1,0 +1,35 @@
+.container{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background-color: aquamarine;
+}
+.h1
+{
+    position: fixed;
+}
+.one{
+    background-image: url(fruite-item-2.jpg);
+    width: 23%;
+    margin: 10px;
+    height: 352px;
+    margin-left: 29px;
+}
+.two{
+    background-image: url(fruite-item-3.jpg);
+    width: 23%;
+    margin: 10px;
+    height: 352px;
+}
+.three{
+   background-image: url(fruite-item-5.jpg);
+   height: 352px;
+    margin: 10px;
+    width: 23%;
+}
+.four{
+    background-image: url(hero-img-1.png);
+    margin: 10px;
+    height: 352px;
+    width: 23%;
+}
