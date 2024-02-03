@@ -1,3 +1,97 @@
+.banner{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: rgb(45, 221, 169);
+}
+
+
+.t2 {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    
+
+}
+
+.t3 {
+    width: 23%;
+    background-color: black;
+    color:white ;
+    border: 1px solid red;
+    border-top: none;
+    margin: 20px;
+
+}
+
+.t4 {
+    width: 23%;
+    background-color: black;
+    color:white ;
+    border: 1px solid red;
+    border-top: none;
+    margin: 20px;
+}
+
+.t5 {
+    background-color: black;
+    color:white ;
+    width: 23%;
+    border: 1px solid red;
+    border-top: none;
+    margin: 20px;
+    
+}
+.Grapes{
+/* align-items: center; */
+margin-left: 120px;
+/* justify-content: center; */
+}
+.t6{
+    background-color: black;
+    color:white ;
+    margin: 20px;
+    width: 23%;
+    border: 1px solid red;
+    border-top: none;
+}
+.one{
+    background-image: url(fruite-item-2.jpg);
+     height: 400px;
+    float: left;
+    width: 23%;
+    margin: 20px;
+}
+
+.four {
+    background-image: url(hero-img-1.png);
+    height: 400px;
+    float: left;
+    width: 23%;
+    margin: 20px;
+}
+
+
+
+.two {
+    height: 400px;
+    margin: 20px;
+    background-image: url(fruite-item-3.jpg);
+    float: left;
+    width: 23%;
+}
+
+
+
+.three {
+    height: 400px;
+    background-image: url(fruite-item-5.jpg);
+    float: left;
+    width: 23%;
+    margin: 20px;
+}
+
 .container{
     height: 500px;
     width: 100%;
